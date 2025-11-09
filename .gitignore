@@ -1,0 +1,21 @@
+# Terraform build artifacts
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Sensitive variable files
+terraform.tfvars
+*.auto.tfvars
+
+# Crash logs
+crash.log
+
+# IDE/editor files
+.vscode/
+*.swp
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific files
+.DS_Store
+Thumbs.db
